@@ -1,0 +1,48 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{sit.Site}}</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquiery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="{% static '/style.css' %}">
+    </head>
+<body>
+    <div class="container-fluid">
+       <br>
+        <h4 style="text-align:center;">{{sit.Site}}</h4>
+        <div class="row">
+            <div class="col-md-6">
+                <br>
+                <img src="{{sit.image.url}}">
+            </div>
+           <br>
+             <br>
+            <div class="col-md-2">
+                <script type='text/javascript' src='{{sit.aqi}}'></script>
+            </div>
+            <div class="col-md-4">
+                <br>
+                <p> The Air Quality Index:<br>
+                0 - 50 : Good<br>
+                51 - 100 : Moderate<br>
+                101 - 150: Unhealthy for sensitive groups<br>
+                151 - 200: Unhealthy<br>
+                201 - 300: Very unhealthy<br>
+                301+ : Hazardous </p>
+                <small>Attribution: EPA/WAQI project</small>
+            </div>
+         </div>
+         <div>
+            <br>
+            <a href="{% url 'annual:index' %}">Return to UK Cities</a>
+             <br>
+            <a href="http://www.air-aware.com/">Return to homepage</a>
+         </div>
+        </div>
+    </div>
+</body>
+</html>

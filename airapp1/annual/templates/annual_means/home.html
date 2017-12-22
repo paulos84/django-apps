@@ -1,0 +1,43 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>UK Cities Air Quality App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquiery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="{% static '/style.css' %}"
+    </head>
+<body>
+    <div class="container-fluid">
+       <br>
+       <h4 style="text-align:left; padding: 16px; color:#616161">{{"Historical and Live Air Quality in UK Cities"}}</h4>
+        <h3 style="text-align:center;">{{sit.Site}}</h3>
+        <div class="row">
+            <div class="col-md-6">
+                {% for value in object_list %}
+                <ul><a href="/sites/{{value.url}}/">{{value.Site}}</a></ul>
+                {% endfor %}
+            </div>
+                {{value|linebreaks}}
+                <h4 style=" padding: 4px; color:#616161">Live Air Quality in London</h4>
+                <iframe id="theFrame" src="https://www.londonair.org.uk/widget/main.html?network=london&hideLeftMenu=0&hideAuthorityButtonSet=0&hideMapButtonSet=0&showAlertsOnNew=1&embedflash=1&showLAIds=0&maxNewsItemsToDisplay=10&startLeftButton=LIST&startAuthorityButtonSet=AUTHORITIES&leftMenuSpacing=COSY&hiddenMenuButtons=TWITTER" height="500" frameborder="0" width="450"></iframe>
+
+    </div>
+        <a href="http://www.air-aware.com/">Return to homepage</a>
+        {{value|linebreaks}}
+        <a href="http://www.air-aware.com/json-api/">JSON API:</a>
+<br>
+<form name="cityselect">
+    <select name="menu" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO">
+        <option value="http://www.air-aware.com/api/annual-means/">Annual means</option>
+        <option value="http://www.air-aware.com/api/daily-means/">Daily means</option>
+    </select>
+</form>
+<br>
+<br>
+</body>
+</html>
+

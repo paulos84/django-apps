@@ -80,7 +80,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="137" y="2" width="1635" height="1712" extended-state="0" />
+    <frame x="137" y="2" width="1635" height="1712" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24983902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
