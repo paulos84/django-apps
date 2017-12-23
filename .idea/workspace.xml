@@ -1,7 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="992645fc-0121-43ef-88bb-0f185368b6a1" name="Default" comment="" />
+    <list default="true" id="992645fc-0121-43ef-88bb-0f185368b6a1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/.idea/Celery-RabbitMQ-app.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/.idea/dbnavigator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/.idea/markdown-navigator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/.idea/markdown-navigator/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/mysite/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/mysite/celery.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/mysite/core/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/mysite/core/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/mysite/core/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/mysite/core/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/mysite/core/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/mysite/core/tasks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/mysite/core/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/mysite/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/mysite/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/mysite/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Celery-RabbitMQ-app/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boilerplate-code/Picha-1/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boilerplate-code/Picha-1/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boilerplate-code/Picha-1/picha/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boilerplate-code/Picha-1/picha/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boilerplate-code/Picha-1/picha/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boilerplate-code/Picha-1/picha/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boilerplate-code/Picha-1/picha/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boilerplate-code/Picha-1/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/.idea/dbnavigator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/.idea/django-authentication.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/.idea/markdown-navigator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/.idea/markdown-navigator/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/css/ct-paper.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/css/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/css/examples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/css/msg.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/img/icons/Comments-48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/img/icons/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/img/icons/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/js/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/js/bootstrap-select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/js/ct-paper-checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/js/ct-paper-radio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/js/ct-paper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/js/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/js/jquery-ui-1.10.4.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/banks.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/bg_wall.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/built_on_glass.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/cat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/chet_faker_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/chet_faker_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/city.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/examples/landing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/examples/profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/examples/register.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/flume.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/lamp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/landscape.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/new_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/pencils.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/placeholder.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/red.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/shoes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/thinking_in_textures.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/types.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/assets/paper_img/wall-dark.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/migrations/0002_community_description_html.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/migrations/0003_auto_20160819_1913.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/templates/communities/_buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/templates/communities/community_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/templates/communities/community_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/templates/communities/community_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/templates/communities/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/templatetags/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/templatetags/community_tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/communities/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/msg/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/msg/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/msg/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/msg/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/msg/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/migrations/0002_post_community.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/templates/posts/_modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/templates/posts/_post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/templates/posts/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/templates/posts/post_confirm_delete.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/templates/posts/post_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/templates/posts/post_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/templates/posts/post_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/templates/posts/user_timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/templatetags/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/templatetags/post_tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/posts/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/msg/templates/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/django-authentication/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/.idea/dbnavigator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/.idea/educa.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/.idea/markdown-navigator/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/courses/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/courses/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/courses/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/courses/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/courses/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/courses/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/courses/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/educa/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/educa/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/educa/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/educa/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/educa/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/cart/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/cart/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/cart/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/cart/cart.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/cart/context_processors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/cart/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/cart/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/cart/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/cart/templates/cart/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/cart/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/cart/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/cart/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/media/products/2017/03/14/TOLSLL_BLKVCR_-Vanilla-Cream-black-tea-loose-leaf-tea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/media/products/2017/03/14/V02115.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/myshop/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/myshop/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/myshop/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/myshop/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/orders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/orders/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/orders/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/orders/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/orders/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/orders/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/orders/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/orders/templates/orders/order/create.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/orders/templates/orders/order/created.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/orders/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/orders/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/orders/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/shop/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/shop/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/shop/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/shop/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/shop/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/shop/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/shop/templates/shop/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/shop/templates/shop/product/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/shop/templates/shop/product/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/shop/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/shop/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/myshop/shop/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/Notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/migrations/0002_comment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/static/css/blog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/templates/blog/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/templates/blog/post/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/templates/blog/post/latest_posts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/templates/blog/post/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/templates/blog/post/share.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/templates/pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/templatetags/blog_tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/blog/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/mysite/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/mysite/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/mysite/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django-tutorials/mysite/mysite/wsgi.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="django-stuff.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +232,14 @@
   <component name="FavoritesManager">
     <favorites_list name="django-stuff" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="137" />
-    <option name="y" value="2" />
-    <option name="width" value="1635" />
-    <option name="height" value="1712" />
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="3232" />
+    <option name="height" value="1732" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -59,12 +276,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django-stuff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django-stuff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flask-examples/Flask-Celery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pjdavis" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -80,26 +307,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="137" y="2" width="1635" height="1712" extended-state="0" />
+    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24983902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
