@@ -123,3 +123,11 @@ class AuthorDelete(DeleteView):
     reverse_lazy() is a lazily executed version of reverse(), used to provide a URL to a class-based view attribute
     """
     success_url = reverse_lazy('authors')
+
+
+class AuthorListView(generic.ListView):
+    model = Author
+
+
+class AuthorDetailView(generic.DetailView):
+    model = Author

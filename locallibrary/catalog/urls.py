@@ -16,4 +16,6 @@ urlpatterns += [
     re_path(r'^author/create/$', views.AuthorCreate.as_view(), name='author_create'),
     re_path(r'^author/(?P<pk>\d+)/update/$', views.AuthorUpdate.as_view(), name='author_update'),
     re_path(r'^author/(?P<pk>\d+)/delete/$', views.AuthorDelete.as_view(), name='author_delete'),
+    re_path(r'^authors/$', views.AuthorListView.as_view(), name='authors'),
+    re_path(r'^author/(?P<pk>\d+)$', views.AuthorDetailView.as_view(), name='author-detail'),
 ]
