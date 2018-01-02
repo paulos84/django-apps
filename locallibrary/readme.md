@@ -87,5 +87,31 @@ Creating a form using the Form class is very flexible, allowing you to create wh
 Django provides a test framework with a small hierarchy of classes that build on the Python standard unittest library. The Django framework adds API methods and tools to help test web and Django-specific behaviour. These allow you to simulate requests, insert test data, and inspect your application's output.
 The best base class for most tests is django.test.TestCase.  This test class creates a clean database before its tests are run, and runs every test function in its own transaction. The class also owns a test Client that you can use to simulate a user interacting with the code at the view level.
 Note: The django.test.TestCase class is very convenient, but may result in some tests being slower than they need to be (not every test will need to set up its own database or simulate the view interaction); you may want to replace some of your tests with the available simpler test classes.
-Django uses the unittest module’s built-in test discovery, which will discover tests under the current working directory in any file named with the pattern test*.py.
+
+(screenshot image)
+
 The AssertTrue, AssertFalse, AssertEqual are standard assertions provided by unittest.  There are other standard assertions in the framework, and also Django-specific assertions to test if a view redirects (assertRedirects), to test if a particular template has been used (assertTemplateUsed), etc.
+
+Command to run tests: python manage.py test
+
+Django uses the unittest module’s built-in test discovery, which will discover tests under the current working directory in any file named with the pattern test*.py.
+
+python3 manage.py test catalog.tests   # Run the specified module
+
+python3 manage.py test catalog.tests.test_models  # Run the specified module
+
+python3 manage.py test catalog.tests.test_models.YourTestClass # Run the specified class
+
+python3 manage.py test catalog.tests.test_models.YourTestClass.test_one_plus_one_equals_two  # Run the specified method
+
+
+**Caching**
+
+Useful reading: https://djangobook.com/djangos-cache-framework/
+
+Caching is a technique that stores a copy of a given resource and serves it back when requested. When a web cache has a requested resource in its store, it intercepts the request and returns its copy instead of re-downloading from the originating server. this eases the load of the server and it takes less time to transmit the resource back to the clients. For a web site, it is a major component in achieving high performance.
+
+Caching can be grouped into two main categories: private browser caches and shared caches. A shared cache is a cache that stores responses for reuse by more than one user. A private cache is dedicated to a single user. HTTP headers can be used to control caching by the client browser, e.g. Django has cache_control decorator where cachability and expiry set; sometimes you don’t want caching if the content changes frequently.
+
+Share caches involve using intermediaries to serve many users in a way that popular resources are reused a number of times.  They involve in memory key-value stores/ nosql database like redis. Static assets like CSS and JavaScript are good candidates to be cached by CDNs and other intermediaries.
+

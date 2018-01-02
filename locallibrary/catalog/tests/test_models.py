@@ -16,6 +16,12 @@ class AuthorModelTest(TestCase):
         field_label = author._meta.get_field('first_name').verbose_name
         self.assertEquals(field_label,'first name')
 
+    """
+    ...If you created the Author model as we described in the models tutorial it is quite likely that you will get an
+    error for the date_of_death label as shown below.
+    AssertionError: 'Died' != 'died'
+    This is a very minor bug, but it does highlight how writing tests check any assumptions you may have made.
+    """
     def test_date_of_death_label(self):
         author=Author.objects.get(id=1)
         field_label = author._meta.get_field('date_of_death').verbose_name
