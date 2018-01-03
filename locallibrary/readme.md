@@ -119,6 +119,17 @@ python3 manage.py test catalog.tests.test_models.YourTestClass.test_one_plus_one
 
 For test_forms we don't actually use the database or test client so SimpleTestCase is used.
 
+To validate our view behaviour we use the Django test Client. This class acts like a dummy web browser that we can use to simulate GET and POST requests on a URL and observe the response. We can see almost everything about the response, from low-level HTTP (result headers and status codes) through to the template we're using to render the HTML and the context data we're passing to it. We can also see the chain of redirects (if any) and check the URL and status code at each step. This allows us to verify that each view is doing what is expected. As AuthorListView is a generic list view almost everything is done for us by Django. Arguably if you trust Django then the only thing you need to test is that the view is accessible at the correct URL and can be accessed using its name.
+
+The first version checks a specific URL (note, just the specific path without the domain) while the second generates the URL from its name in the URL configuration.
+
+resp = self.client.get('/catalog/authors/')
+resp = self.client.get(reverse('authors'))
+
+Once we have the response we query it for its status code, the template used, whether or not the response is paginated, the number of items returned, and the total number of items.
+
+The most interesting variable we demonstrate above is resp.context, which is the context variable passed to the template by the view. This is incredibly useful for testing, because it allows us to confirm that our template is getting all the data it needs.
+
 **Caching**
 
 Useful reading: https://djangobook.com/djangos-cache-framework/
@@ -128,4 +139,23 @@ Caching is a technique that stores a copy of a given resource and serves it back
 Caching can be grouped into two main categories: private browser caches and shared caches. A shared cache is a cache that stores responses for reuse by more than one user. A private cache is dedicated to a single user. HTTP headers can be used to control caching by the client browser, e.g. Django has cache_control decorator where cachability and expiry set; sometimes you don’t want caching if the content changes frequently.
 
 Share caches involve using intermediaries to serve many users in a way that popular resources are reused a number of times.  They involve in memory key-value stores/ nosql database like redis. Static assets like CSS and JavaScript are good candidates to be cached by CDNs and other intermediaries.
+
+**Deploying Django to production**
+
+Many of the Django project settings (specified in settings.py) should be different for production, either for security or performance reasons. It is common to have a separate settings.py file for production.
+
+he critical settings that you must check are: DEBUG and SECRET_KEY. The Django documents suggest that this might best be loaded from an environment variable or read from a serve-only file.
+During development no environment variable will be specified for the key, so the default value will be used (it shouldn't matter what key you use here, or if the key "leaks", because you won't use it in production).
+# SECRET_KEY = 'cg#p$g+j9tax!#a3cup@1$8obt2_+&k3q+pmu)5%asj6yjpkag'
+import os
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&k3q+pmu)5%asj6yjpkag')
+
+**Django web application security**
+
+ The single most important lesson you can learn about website security is to never trust data from the browser. This includes GET request data in URL parameters, POST data, HTTP headers and cookies, user-uploaded files, etc. Always check and sanitize all incoming data. Always assume the worst.
+ Cross site scripting (XSS)
+ XSS is a term used to describe a class of attacks that allow an attacker to inject client-side scripts through the website into the browsers of other users. This is usually achieved by storing malicious scripts in the database where they can be retrieved and displayed to other users, or by getting users to click a link that will cause the attacker’s JavaScript to be executed by the user’s browser.
+Django's template system protects you against the majority of XSS attacks by escaping specific characters that are "dangerous" in HTML. script tags have been turned into their harmless escape code equivalents (e.g. > is now &gt;)
+
+
 
