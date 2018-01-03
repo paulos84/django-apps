@@ -7,6 +7,7 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django. The tutorial 
 
 
 **Model Field Arguments and Metadata**
+
 help_text: Provides a text label for HTML forms (e.g. in the admin site).
 verbose_name: A humanreadable name for the field in field labels.
 choices: A group of choices for this field. If this is provided, the default corresponding form widget will be a                                   		  select box with these choices instead of the standard text field.
@@ -58,7 +59,7 @@ This has exactly the same redirect behaviour as the login_required decorator. Yo
 
 **Working with Forms**
 
-The form is defined in HTML as a collection of elements inside <form>...</form> tags, containing at least one input element of type="submit".
+The form is defined in HTML as a collection of elements inside forms tags, containing at least one input element of type="submit".
 
 ![](https://preview.ibb.co/nm6nzw/basic_form.png)
 
@@ -74,6 +75,7 @@ Django provides numerous places where you can validate your data. The easiest wa
 Creating a form using the Form class is very flexible, allowing you to create whatever sort of form page you like and associate it with any model or models. However if you just need a form to map the fields of a single model then your model will already define most of the information that you need in your form: fields, labels, help text, etc. Rather than recreating the model definitions in your form, it is easier to use the ModelForm helper class to create the form from your model. This ModelForm can then be used within your views in exactly the same way as an ordinary Form.  All you need to do to create the form is add class Meta with the associated model (BookInstance) and a list of the model fields to include in the form (you can include all fields using fields = 'dunder all' or you can use exclude (instead of fields) to specify the fields not to include from the model).
 
 **Testing a Django web application**
+
 Django provides a test framework with a small hierarchy of classes that build on the Python standard unittest library. The Django framework adds API methods and tools to help test web and Django-specific behaviour. These allow you to simulate requests, insert test data, and inspect your application's output.
 
 The best base class for most tests is django.test.TestCase.  This test class creates a clean database before its tests are run, and runs every test function in its own transaction. The class also owns a test Client that you can use to simulate a user interacting with the code at the view level. The django.test.TestCase class may result in some tests being slower than they need  as not every test will need to set up its own database or simulate the view interaction); you can replace some of your tests with the available simpler test classes.
@@ -91,9 +93,7 @@ The AssertTrue, AssertFalse, AssertEqual are standard assertions provided by uni
     
     python3 manage.py test catalog.tests.test_models.YourTestClass.test_one_plus_one_equals_two  # Run the specified method
 
-For test_forms we don't actually use the database or test client so SimpleTestCase is used. To validate our view behaviour we use the Django test Client. This class acts like a dummy web browser that we can use to simulate GET and POST requests on a URL and observe the response. We can see almost everything about the response, from low-level HTTP (result headers and status codes) through to the template we're using to render the HTML and the context data we're passing to it. We can also see the chain of redirects (if any) and check the URL and status code at each step. This allows us to verify that each view is doing what is expected. As AuthorListView is a generic list view almost everything is done for us by Django. Arguably if you trust Django then the only thing you need to test is that the view is accessible at the correct URL and can be accessed using its name. 
-
-Below, the first line checks a specific URL (note, just the specific path without the domain) while the second generates the URL from its name in the URL configuration.
+For test_forms we don't actually use the database or test client so SimpleTestCase is used. To validate our view behaviour we use the Django test Client. This class acts like a dummy web browser that we can use to simulate GET and POST requests on a URL and observe the response. We can see almost everything about the response, from low-level HTTP (result headers and status codes) through to the template we're using to render the HTML and the context data we're passing to it. We can also see the chain of redirects (if any) and check the URL and status code at each step. This allows us to verify that each view is doing what is expected. As AuthorListView is a generic list view almost everything is done for us by Django. Arguably if you trust Django then the only thing you need to test is that the view is accessible at the correct URL and can be accessed using its name. Below, the first line checks a specific URL (note, just the specific path without the domain) while the second generates the URL from its name in the URL configuration.
 
     resp = self.client.get('/catalog/authors/')
     resp = self.client.get(reverse('authors'))
