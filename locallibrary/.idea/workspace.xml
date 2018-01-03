@@ -36,8 +36,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="654">
-                <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+              <first_editor relative-caret-position="753">
+                <caret line="167" column="146" selection-start-line="167" selection-start-column="146" selection-end-line="167" selection-end-column="146" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -1000,8 +1000,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="654">
-            <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <first_editor relative-caret-position="753">
+            <caret line="167" column="146" selection-start-line="167" selection-start-column="146" selection-end-line="167" selection-end-column="146" />
             <folding />
           </first_editor>
           <second_editor>

@@ -156,6 +156,14 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
  Cross site scripting (XSS)
  XSS is a term used to describe a class of attacks that allow an attacker to inject client-side scripts through the website into the browsers of other users. This is usually achieved by storing malicious scripts in the database where they can be retrieved and displayed to other users, or by getting users to click a link that will cause the attacker’s JavaScript to be executed by the user’s browser.
 Django's template system protects you against the majority of XSS attacks by escaping specific characters that are "dangerous" in HTML. script tags have been turned into their harmless escape code equivalents (e.g. > is now &gt;)
+CSRF attacks allow a malicious user to execute actions using the credentials of another user without that user’s knowledge or consent. For example consider the case where we have a hacker who wants to create additional authors for our LocalLibrary.
+(insert image)
+Django's CSRF protection is turned on by default. You should always use the {% csrf_token %} template tag in your forms. Forms that are submitted without the correct csrf token will be rejected.
 
+Other threat protections include:
 
+Host header validation
+    Use ALLOWED_HOSTS to only accept requests from trusted hosts.
+    Enforcing SSL/HTTPS e.g. SECURE_SSL_REDIRECT is used to redirect all HTTP requests to HTTPS.
+Use ‘secure’ cookies by setting SESSION_COOKIE_SECURE and CSRF_COOKIE_SECURE to True. This will ensure that cookies are only ever sent over HTTPS.
 
