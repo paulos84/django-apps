@@ -1,5 +1,18 @@
 This example project is based upon the Mozilla tutorial:  https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django. It has been adapted for Django2.0, using django.urls.path() and django.urls.re_path() instead of django.conf.urls.url()
 
+**Model Field Arguments and Metadata**
+help_text: Provides a text label for HTML forms (e.g. in the admin site), as described above.
+verbose_name: A human-readable name for the field used in field labels.
+choices: A group of choices for this field. If this is provided, the default corresponding form widget will be a select box with these choices instead of the standard text field.
+primary_key: If True, sets the current field as the primary key for the model (A primary key is a special database column designated to uniquely identify all the different table records). If no field is specified as the primary key then Django will automatically add a field for this purpose.
+
+ordering = ["title", "-pubdate"]
+the books would be sorted alphabetically by title, from A-Z, and then by publication date inside each title, from newest to oldest.
+"abstract" (a base class that you cannot create records for, and will instead be derived from to create other models).
+Another common attribute is verbose_name, a verbose name for the class in singular and plural form
+
+
+
 **Sessions Framework**
 
 The session framework allows e.g. hide warning messages that the user
@@ -104,6 +117,7 @@ python3 manage.py test catalog.tests.test_models.YourTestClass # Run the specifi
 
 python3 manage.py test catalog.tests.test_models.YourTestClass.test_one_plus_one_equals_two  # Run the specified method
 
+For test_forms we don't actually use the database or test client so SimpleTestCase is used.
 
 **Caching**
 
