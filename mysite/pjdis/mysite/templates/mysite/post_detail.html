@@ -1,0 +1,6 @@
+{% extends "base_generic.html" %}
+{% load static %}
+{% block content %}
+            <h3 > {{post.title}} </h3>
+            <div> {{ post.content | safe }}  </div>
+{% endblock %}

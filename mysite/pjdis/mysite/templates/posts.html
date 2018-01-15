@@ -1,0 +1,14 @@
+{% extends "base_generic.html" %}
+{% block content %}
+<h3>Recent Projects</h3>
+   {% if post %}
+    <ul>
+      {% for a in post %}
+        {% if a.is_published %}
+      <li><h4>
+        <a href="{{ a.get_absolute_url }}">{{ a.title }}</a>
+       </h4></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+{% endblock %}

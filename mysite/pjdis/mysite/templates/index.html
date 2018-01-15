@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+{% block content %}
+<h3>Recent Projects</h3>
+   {% if project %}
+    <ul>
+      {% for a in project %}
+      <li><h4>
+        <a href="{{ a.url }}">{{ a.title }}</a>
+          <br>
+          {{ a.description }}
+          {% if a.github %}
+          <a href="{{ a.github }}">GitHub repo</a>
+          {% endif %}
+      </h4></li>
+      {% endfor %}
+      {% endif %}
+    </ul>
+{% endblock %}
