@@ -1,7 +1,14 @@
 from django.conf.urls import url
-from snippets import views
+from . import views
+from .views import UserViewSet
+from rest_framework.routers import DefaultRouter
+
 
 urlpatterns = [
-    url(r'^snippets/$', views.snippet_list),
-    url(r'^snippets/(?P<pk>[0-9]+)/$', views.snippet_detail),
+    url(r'^snippets/$', views.SnippetList.as_view()),
+    url(r'^snippets/(?P<pk>[0-9]+)/$', views.SnippetDetail.as_view()),
 ]
+
+router = DefaultRouter()
+router.register(r'users', UserViewSet)
+urlpatterns += router.urls
