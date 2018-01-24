@@ -18,10 +18,3 @@ class Pet(Ownable, Timestampable, Ageable, models.Model):
     name = models.CharField(max_length=50)
     diet = models.CharField(blank=True, max_length=50)
 
-    # born = models.DateTimeField()
-
-
-# from datetime import date
-# birthday = date(year=2005, month=11, day=1)
-
-

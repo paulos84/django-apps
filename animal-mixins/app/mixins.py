@@ -1,10 +1,22 @@
 from django.db import models
-from datetime import date, datetime
+from datetime import date
 from django.utils import timezone
 
 
+class Ageable(models.Model):
+    born = models.DateTimeField()
+
+    class Meta:
+        abstract = True
+
+    @property
+    def age(self):
+        if self.born:
+            td = date.today() - self.born
+            return td.days/365
+
+
 class Timestampable(models.Model):
-    var = models.CharField(max_length=40)
     created = models.DateTimeField(editable=False)
     modified = models.DateTimeField()
 
@@ -19,14 +31,3 @@ class Timestampable(models.Model):
         return super(Timestampable, self).save(*args, **kwargs)
 
 
-class Ageable(models.Model):
-    born = models.DateTimeField()
-
-    class Meta:
-        abstract = True
-
-    @property
-    def age(self):
-        if self.born:
-            td = date.today() - self.born
-            return td.days/365
