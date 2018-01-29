@@ -16,10 +16,10 @@
     <form method="post" action="{% url 'login' %}">
         {% csrf_token %}
 
-        {{ form.username }}
-        {{ form.password }}
+        <p>Username: {{ form.username }} </p>
+        <p>Password: {{ form.password }}</p>
 
-        <input type="submit" value="login">
+         <p><input type="submit" value="login"></p>
         <input type="hidden" next="" value="{{ next}}">
     </form>
 
