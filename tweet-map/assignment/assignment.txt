@@ -1,0 +1,20 @@
+﻿Please find attached details of the Maplecroft technical test. The test also requires the countries.csv attachment (attached).
+Whilst there is no hard deadline for returning the test the sooner we get a response the sooner we can progress to the next stage of the interview process.
+Technical Exercise
+The aim of this project is to gauge your ability to pick up technologies that we commonly use at Maplecroft that you may not have had the opportunity to try out before. 
+Overview:
+Build a simple web based django application which:
+1. Displays the latest X tweets from Maplecroft's Twitter feed
+2. Displays an interactive map of the tweets where it’s possible to associate the tweet with a country or other location.
+- For example:
+Look for the occurrence of a country name in a tweet and place it on a map. Not the location of where the tweet originated.
+To help, we've attached a csv file containing a mapping for countries to a latitude and longitude.
+Any additions beyond the above outlined features will be welcomed provided they are completed within a reasonable time frame. Whilst there are no specific requirements made on deadlines or total time spent, it’s worth emphasising that this is meant to be small project; please aim to spend hours, not days.
+Delivery Guidelines:
+The completed project should be placed on a public Github or Bitbucket account
+Any external software (e.g. Python packages) should be declared so that we can easily install them
+Make use of django
+Any additional information that we may require should be placed in a README` file in root of the project
+We should be able to easily run the resulting application through consulting the README and following the given instructions
+Please email the repository location to matt.seymour@maplecroft.com
+Thanks for taking the time to do this for us, It really helps us understand how candidates think and tackle projects.
